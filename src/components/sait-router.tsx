@@ -1,5 +1,5 @@
 import '../App.css';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { Routes, Route } from 'react-router-dom';
 import Osnova from '../components/osn';
 import Shema_proezda from '../pages/shema-proezda';
 import Strelki_kluba from '../pages/strelki-kluba';

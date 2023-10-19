@@ -10,7 +10,7 @@ function Osnova() {
           <div className="osnova">
               <h2 className="zag">О Северянине</h2>
               
-              <img className="photo" src={i1} alt="Photo" />
+              <img className="photo" src={i1} alt="Logo" />
               
               <p>ПСК “Северянин” (“Петербургский Садочный Клуб”) – современный стрелковый комплекс, оборудованный всем необходимым для стендовой стрельбы, а также для проведения спортивных состязаний по стрельбе в дисциплинах спортинг-компакт, спортинг дуплетная стрельба, а также трап.</p>
               <p>Наш клуб имеет богатую историю, и является продолжателем традиций старинного охотничьего общества “Съверянинъ”: всех нас объединяет любовь к стрелковым видам спорта и охоте.</p>
@@ -20,9 +20,9 @@ function Osnova() {
               <div className="img">
               <div className="blok_photo">
                 <p className="center">
-                <img className="photo1" src={i2} alt="Photo" />
-                <img className="photo1" src={i3} alt="Photo" />
-                <img className="photo1" src={i4} alt="Photo" /></p>
+                <img className="photo1" src={i2} alt="Фото" />
+                <img className="photo1" src={i3} alt="Фото" />
+                <img className="photo1" src={i4} alt="Фото" /></p>
                 
               </div>
               </div>

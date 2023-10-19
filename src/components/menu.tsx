@@ -4,7 +4,6 @@ import {
   AppstoreOutlined,
   MenuFoldOutlined,
   MenuUnfoldOutlined,
-  PieChartOutlined,
   MenuOutlined,
   ScheduleOutlined,
   FileOutlined,
@@ -13,10 +12,7 @@ import {
 } from '@ant-design/icons';
 import type { MenuProps } from 'antd';
 import { Button, Menu } from 'antd';
-import {Link, NavLink} from "react-router-dom";
-import { Content } from 'antd/es/layout/layout';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Shema_proezda from "../pages/shema-proezda";
+import { Link } from "react-router-dom";
 import SubMenu from 'antd/es/menu/SubMenu';
 
 type MenuItem = Required<MenuProps>['items'][number];
@@ -91,10 +87,6 @@ const Glavnoe_menu: React.FC = () => {
         theme="light"
         inlineCollapsed={collapsed}
         //items={items}
-
-        onClick={(info)=>{
-            console.log(info.key);
-       }}
        >
           <SubMenu key="sub1" title={<span><MenuOutlined /><span>Клуб</span></span>}> 
               <Menu.Item key="1"><Link to="/Osnova">О Северянине</Link></Menu.Item>
