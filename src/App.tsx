@@ -1,6 +1,6 @@
 
 import './App.css';
-import Glavnoe_menu from "./components/menu";
+import GlavnoeMenu from "./components/menu";
 import Partnery from './components/partnery';
 import Footer from './components/footer';
 import Header from './components/header';
@@ -11,7 +11,7 @@ const App = () => {
       <div>
             <Header />
             <div className='block'>
-                <Glavnoe_menu />
+                <GlavnoeMenu />
                 <SRouter />
              </div>
              <Partnery />

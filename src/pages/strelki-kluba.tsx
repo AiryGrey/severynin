@@ -1,6 +1,6 @@
 import "../App.css"
 
-function Strelki_kluba() {
+function StrelkiKluba() {
   return (
           <div className="osnova">
               <h2 className="zag">Стрелки клуба</h2>
@@ -8,5 +8,5 @@ function Strelki_kluba() {
   );
 }
 
-export default Strelki_kluba;
+export default StrelkiKluba;
 

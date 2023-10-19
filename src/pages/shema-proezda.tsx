@@ -1,6 +1,6 @@
 import "../App.css"
 
-function Shema_proezda() {
+function ShemaProezda() {
   return (
           <div className="osnova">
               <h2 className="zag">Схема проезда</h2>
@@ -18,4 +18,4 @@ function Shema_proezda() {
   );
 }
 
-export default Shema_proezda;
+export default ShemaProezda;

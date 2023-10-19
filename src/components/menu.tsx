@@ -10,66 +10,11 @@ import {
   PictureOutlined,
   HomeOutlined
 } from '@ant-design/icons';
-import type { MenuProps } from 'antd';
 import { Button, Menu } from 'antd';
 import { Link } from "react-router-dom";
 import SubMenu from 'antd/es/menu/SubMenu';
 
-type MenuItem = Required<MenuProps>['items'][number];
-
-function getItem(
-  label: React.ReactNode,
-  key: React.Key,
-  icon?: React.ReactNode,
-  children?: MenuItem[],
-  type?: 'group',
-): MenuItem {
-  return {
-    key,
-    icon,
-    children,
-    label,
-    type,
-  } as MenuItem;
-}
-
-//const navigate = useNavigate();
-
-/*const items: MenuItem[] = [
-  getItem('Клуб', 'sub1', <MenuOutlined />, [
-    getItem('О Северянине', '1'),
-    getItem('Стрелки клуба', '2'),
-    getItem('Рейтинг игроков', '3'),
-    getItem('Вступить в клуб', '4'),
-    getItem('Ресторан', '5'),
-    getItem('Детям', '6'),
-    getItem('Корпоративные мероприятия', '7'),
-    getItem('Положение о рейтинге стрелков', '8'),
-  ]),
-  getItem('Календарь соревнований', '9', <ScheduleOutlined />),
-  getItem('Полезное', 'sub2', <FileOutlined />, [
-    getItem('Новости', '10'),
-    getItem('Правила соревнований по стендовой стрельбе', '11'),
-    getItem('Официальные документы', '12'),
-    getItem('Ссылки', '13'),
-    getItem('Купить-продать', '14'),
-  ]),
-  getItem('Стрельба', 'sub3', <AppstoreOutlined />, [
-    getItem('Прайс-лист', '15'),
-    getItem('Площадки', '16'),
-    getItem('Инструкторы', '17'),
-    getItem('Заказать турнир', '18'),
-    //getItem('Submenu', 'sub3', null, [getItem('Option 11', '11'), getItem('Option 12', '12')]),
-  ]),
-  getItem('Альбомы', '19', <PictureOutlined />),
-  getItem('Контакты', 'sub4', <HomeOutlined />, [
-    getItem('Схема проезда', '20'),
-    getItem('Руководство', '21'),
-  ]),
-  getItem('Предстоящие соревнования', '22', <ScheduleOutlined />),
-];*/
-
-const Glavnoe_menu: React.FC = () => {
+const GlavnoeMenu: React.FC = () => {
     const [collapsed, setCollapsed] = useState(false);
   
     const toggleCollapsed = () => {
@@ -90,7 +35,7 @@ const Glavnoe_menu: React.FC = () => {
        >
           <SubMenu key="sub1" title={<span><MenuOutlined /><span>Клуб</span></span>}> 
               <Menu.Item key="1"><Link to="/Osnova">О Северянине</Link></Menu.Item>
-              <Menu.Item key="2"><Link to="/Strelki_kluba">Стрелки клуба</Link></Menu.Item>
+              <Menu.Item key="2"><Link to="/StrelkiKluba">Стрелки клуба</Link></Menu.Item>
               <Menu.Item key="3"><Link to="/Osnova">Рейтинг игроков</Link></Menu.Item>
               <Menu.Item key="4"><Link to="/Osnova">Вступить в клуб</Link></Menu.Item>
               <Menu.Item key="5"><Link to="/Osnova">Ресторан</Link></Menu.Item>
@@ -114,7 +59,7 @@ const Glavnoe_menu: React.FC = () => {
           </SubMenu>
           <Menu.Item key="19"><Link to="/Osnova"><PictureOutlined /><span>Альбомы</span></Link></Menu.Item>
           <SubMenu key="sub4" title={<span><HomeOutlined /><span>Контакты</span></span>}> 
-              <Menu.Item key="20"><Link to="/Shema_proezda">Схема проезда</Link></Menu.Item>
+              <Menu.Item key="20"><Link to="/ShemaProezda">Схема проезда</Link></Menu.Item>
               <Menu.Item key="21"><Link to="/Osnova">Руководство</Link></Menu.Item>
           </SubMenu>
           <Menu.Item key="22"><Link to="/Osnova"><ScheduleOutlined /><span>Предстоящие соревнования</span></Link></Menu.Item>
@@ -124,4 +69,4 @@ const Glavnoe_menu: React.FC = () => {
   );
 };
 
-export default Glavnoe_menu;
+export default GlavnoeMenu;
