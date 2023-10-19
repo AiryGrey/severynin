@@ -1,13 +1,11 @@
-
 import "../App.css"
-
 
 function Osnova() {
   return (
           <div className="osnova">
               <h2 className="zag">О Северянине</h2>
               
-          <img className="photo" src="/image/1.png" alt="Logo" />
+          <img className="photo" src="/image/i1.jpg" alt="Logo" />
               
               <p>ПСК “Северянин” (“Петербургский Садочный Клуб”) – современный стрелковый комплекс, оборудованный всем необходимым для стендовой стрельбы, а также для проведения спортивных состязаний по стрельбе в дисциплинах спортинг-компакт, спортинг дуплетная стрельба, а также трап.</p>
               <p>Наш клуб имеет богатую историю, и является продолжателем традиций старинного охотничьего общества “Съверянинъ”: всех нас объединяет любовь к стрелковым видам спорта и охоте.</p>
@@ -17,9 +15,9 @@ function Osnova() {
               <div className="img">
               <div className="blok_photo">
                 <p className="center">
-                <img className="photo1" src="/image/2.png" alt="Фото" />
-                <img className="photo1" src="/image/3.png" alt="Фото" />
-                <img className="photo1" src="/image/4.png" alt="Фото" /></p>
+                <img className="photo1" src="/image/i2.jpg" alt="Фото" />
+                <img className="photo1" src="/image/i3.jpg" alt="Фото" />
+                <img className="photo1" src="/image/i4.jpg" alt="Фото" /></p>
                 
               </div>
               </div>

@@ -4,14 +4,13 @@ import {
     InstagramOutlined,
     FacebookOutlined,
     } from '@ant-design/icons';
-import vk from "../img/vk.png";
 
 function Footer() {
   return (
     <div className="footer">
        
         <div className="iconki">
-            <img src={vk} width="15px" alt="vk" /> <br /><br />
+            <img src="/image/vk.png" width="15px" alt="vk" /> <br /><br />
             <InstagramOutlined /><br /><br />
             <FacebookOutlined />
         </div>
