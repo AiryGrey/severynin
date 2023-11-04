@@ -2,10 +2,6 @@ interface ITitleText {
     titletext: string
   }
 
-function TitleText (props: ITitleText) {
-    if (props.titletext!=="") return <h2 className="zagolovok">{props.titletext}</h2>;
-    return (
-        <></>
-    )
-}
+const TitleText = (props: ITitleText) => <h2 className="zagolovok">{props.titletext}</h2>;
+
 export default TitleText;
