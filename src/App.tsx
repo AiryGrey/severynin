@@ -1,22 +1,17 @@
-
 import './App.css';
-import GlavnoeMenu from "./components/menu";
 import Partnery from './components/partnery';
 import Footer from './components/footer';
 import Header from './components/header';
-import SRouter from './components/sait-router';
+import Base from './components/baze';
 
 const App = () => {
-    return (
-      <div>
-            <Header />
-            <div className='block'>
-                <GlavnoeMenu />
-                <SRouter />
-             </div>
-             <Partnery />
-             <Footer />
-      </div>
-    )
+  return (
+    <div>
+      <Header />
+      <Base />
+      <Partnery />
+      <Footer />
+    </div>
+  )
 }
 export default App;

@@ -5,7 +5,8 @@ function Partnery() {
   return (
     <div>
         <div className="scroll">
-          <h2 className="zag">Наши партнеры</h2>
+          <br/><br/>
+          <h2 className="zagolovok">Наши партнеры</h2>
         </div>
         <div  className="partnery">
           <img className="photo2" src="/image/log/1.png" alt="Partnery" />
