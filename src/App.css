@@ -111,6 +111,7 @@
 
 .partnery {
   display: flex;
+  justify-content: space-between;
   align-self: center;
   width: 100%;
   position: relative;
@@ -118,10 +119,12 @@
   overflow-y: hidden;
 }
 
-.photo2 {
-  /*width: 6%;*/
+.photop {
+  width: 100px;
   height: 40px;
   padding: 10px 2%;
+  margin-left: 1%;
+  border: 2%;
 }
 
 .footer {
@@ -344,8 +347,25 @@
   color: #7a7a7a;
 }
 
-.cardalbums {
-  width: 1fr;
-  height: 100%;
+.albums {
+  width: 260px;
+  height: 280px;
   border-color: #d4d4d6;
+}
+
+.gridarea2 {
+  display: none;
+}
+
+.photos {
+  width: 260px;
+  height: max-content;
+  border-color: #d4d4d6;
+}
+
+.photobutton {
+  margin: auto;
+  width: 300px;
+  padding: 10px 10px 10px 10px;
+  font-size: 15px;
 }

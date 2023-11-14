@@ -17,30 +17,30 @@ function Footer() {
 
         <div className="foot">
             <ul>
-                <li><a href="/">Клуб</a></li>
-                <li><a href="/">Соревнования</a></li>
-                <li><a href="/">Статьи</a></li>
-                <li><a href="/">Ссылки</a></li>
-                <li><a href="/">Новичкам</a></li>
-                <li><a href="/">Купить-продать</a></li>
-                <li><a href="/">Прайс-лист</a></li>
-                <li><a href="/">Площадки</a></li>
-                <li><a href="/">Инструкторы</a></li>
-                <li><a href="/">Школа стрельбы</a></li>
+                <li><a href="/Osnova">Клуб</a></li>
+                <li><a href="/Calendar">Соревнования</a></li>
+                <li><a href="/Documents">Документы</a></li>
+                <li><a href="/Links">Ссылки</a></li>
+                <li><a href="/JoinClub">Вступить в клуб</a></li>
+                <li><a href="/News">Новости</a></li>
+                <li><a href="/Price">Прайс-лист</a></li>
+                <li><a href="/Area">Площадки</a></li>
+                <li><a href="/Instructors">Инструкторы</a></li>
+                <li><a href="/Administration">Руководство</a></li>
             </ul>
         </div>
 
         <div className="foot">
             <ul>
-                <li><a href="/">Заказать турнир</a></li>
-                <li><a href="/">Кафе</a></li>
-                <li><a href="/">Альбомы</a></li>
-                <li><a href="/">Детям</a></li>
-                <li><a href="/">Корпоративные мероприятия</a></li>
-                <li><a href="/">Рейтинг стрелков</a></li>
-                <li><a href="/">Стрелки клуба</a></li>
-                <li><a href="/">Вступить в клуб</a></li>
-                <li><a href="/">О Северянине</a></li>
+                <li><a href="/Tourney">Заказать турнир</a></li>
+                <li><a href="/Restoran">Кафе</a></li>
+                <li><a href="/Albums">Альбомы</a></li>
+                <li><a href="/Deti">Детям</a></li>
+                <li><a href="/Corporate">Корпоративные мероприятия</a></li>
+                <li><a href="/Reiting">Рейтинг стрелков</a></li>
+                <li><a href="/StrelkiKluba">Стрелки клуба</a></li>
+                <li><a href="/JoinClub">Вступить в клуб</a></li>
+                <li><a href="/Osnova">О Северянине</a></li>
                 <li><a href="/"> </a></li>
             </ul>
         </div>
@@ -50,7 +50,7 @@ function Footer() {
                Ср-Вc 10:00-18:00, Пн, Вт - выходной <br /></h4>
                <h2>+7 (812) 993-35-50</h2>
             psk-severyanin@mail.ru <br />
-            <a href="/">Схема проезда </a><br />
+            <a href="/ShemaProezda">Схема проезда </a><br />
             © 2013-2021 Стрелковый клуб “Северянин”
         </div>
     

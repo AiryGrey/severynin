@@ -11,7 +11,6 @@ function ImageBlock (props: IImageBlock) {
                     {props.url.map(url => <img className="photo1" src={url} alt="severyanin"/>)}
                     </p>
            </div>
-
     )
 }
 export default ImageBlock;

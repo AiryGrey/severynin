@@ -1,6 +1,5 @@
 import "../../App.css"
 import Forma from "./additions/form";
-import Form2 from "./additions/form2"
 
 function JoinClub() {
   return (
@@ -36,7 +35,6 @@ function JoinClub() {
 
               <Forma />
               <br/>
-              <Form2 />
 
           </div>
   );

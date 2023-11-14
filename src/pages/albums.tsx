@@ -7,10 +7,8 @@ function Albums() {
           <div className="osnova">
               <h2 className="zagolovok">Альбомы</h2>
             
-              <div className="gridarea">
                   <AlbumsBaza />
-              </div>
- 
+
           </div>
   );
 }

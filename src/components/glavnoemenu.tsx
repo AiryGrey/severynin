@@ -59,9 +59,9 @@ const GlavnoeMenu: React.FC = () => {
           <Menu.Item key="19"><Link to="/Albums"><PictureOutlined /><span>Альбомы</span></Link></Menu.Item>
           <SubMenu key="sub4" title={<span><HomeOutlined /><span>Контакты</span></span>}> 
               <Menu.Item key="20"><Link to="/ShemaProezda">Схема проезда</Link></Menu.Item>
-              <Menu.Item key="21"><Link to="/Osnova">Руководство</Link></Menu.Item>
+              <Menu.Item key="21"><Link to="/Administration">Руководство</Link></Menu.Item>
           </SubMenu>
-          <Menu.Item key="22"><Link to="/Osnova"><ScheduleOutlined /><span>Предстоящие соревнования</span></Link></Menu.Item>
+          <Menu.Item key="22"><Link to="/Future"><ScheduleOutlined /><span>Предстоящие соревнования</span></Link></Menu.Item>
       </Menu>
 
     </div>

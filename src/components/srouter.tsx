@@ -20,6 +20,8 @@ import Area from "../pages/shooting/area";
 import Instructors from "../pages/shooting/instructors";
 import Tourney from "../pages/shooting/tourney";
 import Albums from "../pages/albums";
+import Administration from "../pages/administration";
+import Future from "../pages/future"
 
 const SRouter = () => {
     return (      
@@ -47,6 +49,8 @@ const SRouter = () => {
             <Route path="/Instructors" element={<Instructors />}></Route>
             <Route path="/Tourney" element={<Tourney />}></Route>
             <Route path="/Albums" element={<Albums />}></Route>
+            <Route path="/Administration" element={<Administration />}></Route>
+            <Route path="/Future" element={<Future />}></Route>
 
 
         </Routes> 
